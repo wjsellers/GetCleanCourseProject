@@ -89,10 +89,10 @@ Variable List
 [49] "MeanOfFrequencyBodyAccelerometerSignalJerkinXDirection"             
 [50] "MeanOfFrequencyBodyAccelerometerSignalJerkinYDirection"             
 [51] "MeanOfFrequencyBodyAccelerometerSignalJerkinZDirection"             
-[52] "StandardDeviationOfFrequencyBodyAccelerometerSignalJerkinXDirection"              
+[52] "StandardDeviationOfFrequencyBodyAccelerometerSignalJerkinXDirection"
 [53] "StandardDeviationOfFrequencyBodyAccelerometerSignalJerkinYDirection"
 [54] "StandardDeviationOfFrequencyBodyAccelerometerSignalJerkinZDirection"
-[55] "MeanOfFrequencyBodyGyroscopeSignalinXDirection"  
+[55] "MeanOfFrequencyBodyGyroscopeSignalinXDirection"                     
 [56] "MeanOfFrequencyBodyGyroscopeSignalinYDirection"                     
 [57] "MeanOfFrequencyBodyGyroscopeSignalinZDirection"                     
 [58] "StandardDeviationOfFrequencyBodyGyroscopeSignalinXDirection"        
@@ -105,11 +105,6 @@ Variable List
 [65] "MeanOfFrequencyBodyGyroscopeSignalMagnitude"                        
 [66] "StandardDeviationOfFrequencyBodyGyroscopeSignalMagnitude"           
 [67] "MeanOfFrequencyBodyGyroscopeSignalJerkMagnitude"                    
-[68] "StandardDeviationOfFrequencyBodyGyroscopeSignalJerkMagnitude"  
+[68] "StandardDeviationOfFrequencyBodyGyroscopeSignalJerkMagnitude" 
 
-
-
- 
-[54] "StandardDeviationOfFrequencyBodyAccelerometerSignalJerkinZDirection"
-[55] "MeanOfFrequencyBodyGyroscopeSignalinXDirection"
       
