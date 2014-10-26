@@ -2,8 +2,6 @@
 # Course Project
 # WJSellers
 
-# set working directory
-setwd("~/Repos/GetCleanCourseProject")
 
 ##-------------------
 ## Pre-Processing
@@ -12,7 +10,7 @@ setwd("~/Repos/GetCleanCourseProject")
 library(plyr)
 library(dplyr)
 
-# download and unzip data set
+# download and unzip raw data set
 if(!file.exists("./data")) { dir.create("./data") }
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile="./data/dataset.zip", method="curl")
@@ -112,7 +110,7 @@ selectedFeatures$featureDirection <- gsub("X","inXDirection",selectedFeatures$fe
 selectedFeatures$featureDirection <- gsub("Y","inYDirection",selectedFeatures$featureDirection)
 selectedFeatures$featureDirection <- gsub("Z","inZDirection",selectedFeatures$featureDirection)
 
-# combining Function-Signal-Director into new descriptive names
+# combining Function-Signal-Direction into new descriptive names
 selectedFeatures$DescriptiveName <- paste(selectedFeatures$featureFunction,
                                           selectedFeatures$featureSignal,
                                           selectedFeatures$featureDirection,

@@ -1,6 +1,5 @@
 ==========================================
 Getting and Cleaning Data - Course Project
-WJSellers
 ==========================================
 
 This repository contains files for the Course Project of Johns Hopkins' Getting and Cleaning Data class on Coursera. The purpose of the project is to demonstrate my ability to collect, work with and clean a data set.
@@ -52,7 +51,9 @@ The training and test sets are each composed of three different files with the m
 Step 2 - Extract only measurements on the mean and standard deviation - 
 
 Our merged data set from step 1 includes all 561 measurement variables collected in the original experiment and now in step 2 our goal is to extract only the measurements on the mean and stanard deviation. To do so however, we must first get more information on all the meauresement variables, which can be found in the 'features.txt' and 'features_info.txt'. 
+
 The script pulls the basic info from 'features.txt' and then parses the measurement names into separate columns, breaking out and labeling the Signal, Function and Direction. Next, it creates an index looking for mean() and std() in the Function list, which is then used to extract the columns that match our criteria, leaving us with 66 columns of measurements, plus 2 more with subject and activity. 
+
 Note: While other functions and measurement descriptions mention the mean and standard deviation, after studying the data, reading the info files and consulting the forums, I decided to only include measurements using strictly "mean()" or "std()", as I believe that is the intent of the assignment and makes the most sense of the data.
 
 ---
